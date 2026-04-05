@@ -1,0 +1,22 @@
+{
+  "name": "parent-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "date-fns": "^4.1.0",
+    "discord-giveaways": "^6.0.1",
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.3.4",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "mongodb": "^7.1.1",
+    "ms": "^2.1.3"
+  }
+}
