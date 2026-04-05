@@ -1,0 +1,87 @@
+{
+  "id": "BKP-ZNZB",
+  "createdAt": 1769990441511,
+  "roles": [
+    {
+      "name": "[+] Char-Shop",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "8"
+    },
+    {
+      "name": "[+] Char-Shop",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "8"
+    },
+    {
+      "name": "[+] Char-Shop",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "8"
+    }
+  ],
+  "channels": [
+    {
+      "name": "Salons textuels",
+      "type": 4,
+      "parent": null,
+      "permissionOverwrites": []
+    },
+    {
+      "name": "général",
+      "type": 0,
+      "parent": "Salons textuels",
+      "permissionOverwrites": []
+    },
+    {
+      "name": "Général",
+      "type": 2,
+      "parent": "Salons vocaux",
+      "permissionOverwrites": []
+    },
+    {
+      "name": "📁・backup-logs",
+      "type": 0,
+      "parent": "Logs",
+      "permissionOverwrites": [
+        {
+          "id": "1467528561635098780",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1325614558987026494",
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "name": "Salons vocaux",
+      "type": 4,
+      "parent": null,
+      "permissionOverwrites": []
+    },
+    {
+      "name": "Logs",
+      "type": 4,
+      "parent": null,
+      "permissionOverwrites": [
+        {
+          "id": "1467528561635098780",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1325614558987026494",
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    }
+  ]
+}
